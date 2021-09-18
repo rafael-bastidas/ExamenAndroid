@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linear_reservas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/recuadro"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linear_reservas2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_calendario_reservation_black_2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_4"
+            android:fontFamily="@font/sans_semibold"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/editor_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_circle_pencil_blue"
+        app:layout_constraintCircle="@id/linear_reservas"
+        app:layout_constraintCircleAngle="55"
+        app:layout_constraintCircleRadius="55dp"
+        app:layout_constraintStart_toStartOf="@id/linear_reservas"
+        app:layout_constraintBottom_toBottomOf="@id/linear_reservas"/>
+
+    <LinearLayout
+        android:id="@+id/linear_reservas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/recuadro"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        app:layout_constraintStart_toEndOf="@id/linear_reservas"
+        app:layout_constraintEnd_toStartOf="@id/linear_reservas3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_relojito_reservation_black_2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_5"
+            android:fontFamily="@font/sans_semibold"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/editor_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_circle_pencil_blue"
+        app:layout_constraintCircle="@id/linear_reservas2"
+        app:layout_constraintCircleAngle="55"
+        app:layout_constraintCircleRadius="55dp"
+        app:layout_constraintStart_toStartOf="@id/linear_reservas2"
+        app:layout_constraintBottom_toBottomOf="@id/linear_reservas2" />
+
+    <LinearLayout
+        android:id="@+id/linear_reservas3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/recuadro"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="20dp"
+        app:layout_constraintStart_toEndOf="@id/linear_reservas2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_personas_reservation_black_2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_6"
+            android:fontFamily="@font/sans_semibold"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/editor_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_circle_pencil_blue"
+        app:layout_constraintCircle="@id/linear_reservas3"
+        app:layout_constraintCircleAngle="55"
+        app:layout_constraintCircleRadius="55dp"
+        app:layout_constraintStart_toStartOf="@id/linear_reservas3"
+        app:layout_constraintBottom_toBottomOf="@id/linear_reservas3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo">Prime Steak House (Costa del Este)</string>
+    <string name="texto_1">Costa del Este</string>
+
+    <string name="texto_2">Reserva a nombre de Jorge Andrés Rojas</string>
+    <string name="texto_3">50% OFF Miembro Foodie</string>
+
+    <string name="texto_4">Miércoles 4</string>
+    <string name="texto_5">12:00 pm</string>
+    <string name="texto_6">2 Personas</string>
+
+    <string name="texto_7">66479404</string>
+    <string name="texto_8">Voy a celebrar el cumpleaños de mi esposo y queremos una mesa cerca ...</string>
+
+    <string name="texto_9">Actualizar reserva</string>
+    <string name="texto_10">Cancelar reserva</string>
+</resources>
